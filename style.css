@@ -495,7 +495,7 @@ footer ul li {
   
   border-radius: 8px;
   
-  background-image:linear-gradient(to right, #434343 0%, black 100%); 
+  background-image:linear-gradient(to right, #434343 0%, black 100%); ;
   
   transition: all 1s;
 
@@ -511,6 +511,9 @@ footer ul li {
   position:fixed;
   z-index:100;
 }
+
+
+
 
 
 
