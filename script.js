@@ -1,4 +1,3 @@
-// js
   
 const intro = document.querySelector(".intro");
 const video = intro.querySelector("video");
@@ -16,6 +15,7 @@ let scene = new ScrollMagic.Scene({
   triggerElement: intro,
   triggerHook: 0
 })
+  
   .setPin(intro)
   .addTo(controller);
 
@@ -111,3 +111,6 @@ next.addEventListener("click", function () {
         makeItVisible(indexOfImg);
     }
 })
+
+
+
